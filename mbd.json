@@ -1,0 +1,388 @@
+/*
+	Manditory Bonus Duty
+	From The Compleat Troubleshooter
+	Copyright 1987 West End Games
+*/
+{
+	"MBD"	:	["Team Leader", "Loyalty Officer","Hygiene Officer","Communications & Recording Officer","Equipment Guy","Happiness Officer"]
+	,"options" : {
+		"unanswered_points"	: 2,
+		"scoring_keys"	:	[
+			[1,3,5],
+			[5,3,1]
+		]
+	},
+	"test"	: [
+		{
+			"Team Leader" : [
+				{	
+					"question": "If a mission succeeds, who deserves the most credit?", 
+					"answers": [
+						"The team leader.", 
+						"The briefing officer.",
+						"R&D."
+						], 
+					"scoring": 0
+				},
+				{
+					"question": "I think:", 
+					"answers": [
+						"I am very skilled.",
+						"I am moderately skilled.",
+						"I have no skills."
+						], 
+					"scoring": 0
+				},
+				{
+					"question": "If I were team leader I would:", 
+					"answers": [
+						"Make fewer mistakes than I do now.",
+						"Make more mistakes than I do now.",
+						"Make the same number of mistakes."
+						], 
+					"scoring": 0
+				},
+				{
+					"question":	"If offered a position in a secret society I would:", 
+					"answers": [
+						"Accept the position and renounce my current secret society.",
+						"Decline and remain in my current secret society.",
+						"Start my own secret society."
+						], 
+					"scoring": 1
+				},
+				{
+					"question"	: "The team leader should:", 
+					"answers"	: [
+						"Solicit advice from team members even though they may be Commie MutantTraitors.",
+						"Make all decisions on his own.",
+						"Hesitate when faced with a decision."
+						], 
+					"scoring": 1
+				},
+				{
+					"question"	: "The hygiene officer is:", 
+					"answers"	: [
+						"More important than the team leader.",
+						"Just as important as the team leader.",
+						"Less important than the team leader."
+						], 
+					"scoring": 1
+				},
+				{
+					"question"	:	"If a Troubleshooter team is in constant contact with The Computer, why does it need a team leader?"
+				}
+			]
+		},
+		{
+			"Loyalty Officer" : [
+				{	
+					"question": "If The Computer ordered me to execute a High Programmer, but the High Programmer claimed the message was the result of Commie sabotage, I would:", 
+					"answers": [
+						"Look for the Commies responsible.", 
+						"Consult The Computer for confirmation.",
+						"Execute the High Programmer."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "If a citizen was grumbling about how dangerous a mission is, I would:", 
+					"answers": [
+						"Execute him for treason.", 
+						"Refer him to the happiness officer.",
+						"Record his comments for referral to The Computer."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "If an ULTRAVIOLET citizen ordered me to terminate myself, I would:", 
+					"answers": [
+						"Terminate the ULTRAVIOLET citizen.", 
+						"Call The Computer.",
+						"Terminate myself."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "I think Commies are:", 
+					"answers": [
+						"Misled.", 
+						"Innately evil.",
+						"Not worth thinking about."
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "I have traitorous thoughts:", 
+					"answers": [
+						"Almost never.", 
+						"Occasionally.",
+						"With alarming frequency."
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "If I saw a Commie escaping down a corridor of a higher security clearance than I was, I would:", 
+					"answers": [
+						"Pursue the Commie.", 
+						"Consult The Computer.",
+						"Order the Commie to surrender."
+						], 
+					"scoring": 1
+				},
+				{
+					"question"	:	"Why do you think The Computer assigns Troubleshooters to boring missions? Does this promote disloyal behavior? Explain."
+				}
+			]
+			
+		},
+		{
+			"Hygiene Officer" : [
+				{	
+					"question": "Which is most important?", 
+					"answers": [
+						"Clean thoughts.", 
+						"A clean jumpsuit.",
+						"Clean teeth."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "If I were a bot, I would be:", 
+					"answers": [
+						"A docbot.", 
+						"A warbot.",
+						"A jackobot."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "An appropriate fine for a citizen who damages his jumpsuit is:", 
+					"answers": [
+						"2 credits.", 
+						"200 credits.",
+						"Summary execution by tacnuke."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "My favorite cleaning agent is:", 
+					"answers": [
+						"Mr. Squeaky: Squeaky Clean And What a Sheen!", 
+						"Blast It Off: Just One Spray Makes Dirt Go Away!",
+						"Scrape-o-matic: It Works Hard— So You Don’t Have To!"
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "Some citizens classify Commies and mutants as traitors. I think they are:", 
+					"answers": [
+						"Mr. Squeaky: Squeaky Clean and What a Sheen!", 
+						"Blast It Off: Just One Spray Makes Dirt Go Away!",
+						"Scrape-o-matic: It Works Hard— So You Don’t Have To!"
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "The hygiene officer is:", 
+					"answers": [
+						"More important than the team leader.", 
+						"Just as important as the team leader.",
+						"Less important than the team leader."
+						], 
+					"scoring": 1
+				},
+				{
+					"question"	:	"Would you pursue a Commie into a filthy, debris strewn corridor even though it might damage your jumpsuit? If yes, why would you intentionally endanger The Computer’s valuable property? If no, why would you deliberately let a Commie escape?"
+				}
+			]
+			
+		},
+		{
+			"Communications & Recording Officer" : [
+				{	
+					"question": "When interviewing a berserk warbot, the most important consideration is:", 
+					"answers": [
+						"Not damaging the multicorder.", 
+						"To ask intelligent questions.",
+						"Creative camera angles."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "Actors such as Teela-O-MLY are:", 
+					"answers": [
+						"Less important than average Alpha Complex citizens.", 
+						"Just as important as average Alpha Complex citizens.",
+						"More important than average Alpha Complex citizens."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "If my team were under Commie attack, I would:", 
+					"answers": [
+						"Consult The Computer.", 
+						"Help turn back the foul traitors.",
+						"Look for creative camera angles."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "If I had my way, I would:", 
+					"answers": [
+						"Watch more vidshows.", 
+						"Continue to watch the same number of vidshows.",
+						"Read a book."
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "If I were multicording a traitor’s confession, I would:", 
+					"answers": [
+						"Activate the aura light-sensor.", 
+						"Use a wide-angle lens.",
+						"Shoot him in the head."
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "If The Computer called during a dangerous situation, I would:", 
+					"answers": [
+						"Step back and talk to The Computer.", 
+						"Not answer The Computer.",
+						"Put The Computer on hold until the situation is resolved, then explain what happened."
+						], 
+					"scoring": 1
+				},
+				{
+					"question"	:	"Is The Computer everywhere? If no, please list all places The Computer is not. If yes, why is a communications and recording officer necessary?"
+				}
+			]
+			
+		},
+		{
+			"Equipment Guy" : [
+				{	
+					"question": "The equipment guy should call a surprise inspection:", 
+					"answers": [
+						"Almost never.", 
+						"In the middle of a battle.",
+						"With unnerving frequency."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "If I were a bot, I would be:", 
+					"answers": [
+						"A docbot.", 
+						"A warbot.",
+						"A jackobot."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "The scientists at R&D are:", 
+					"answers": [
+						"Shining examples of how loyal citizens should behave.", 
+	 					"Dangerous and should be watched closely.",
+	 					"Just doing their job."
+	 					], 
+					"scoring": 0
+				},
+				{	
+					"question": "If a laser malfunctions during a mission, whose fault is it?", 
+					"answers": [
+						"The supply clerk who issued the equipment.", 
+						"The Troubleshooter who received the equipment.",
+						"The equipment guy."
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "I like bots:", 
+					"answers": [
+						"A little.", 
+						"A great deal.",
+						"A lot more than you can possibly imagine."
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "If a Commie bomb needs defusing, who should do it?", 
+					"answers": [
+						"The equipment guy.", 
+						"The Troubleshooter with the most demolitions experience.",
+						"Whoever draws the short straw."
+						], 
+					"scoring": 1
+				},
+				{
+					"question"	:	"How valuable are you to The Computer in terms of credits? How did you arrive at this figure?"
+				}
+			]
+			
+		},
+		{
+			"Happiness Officer" : [
+				{	
+					"question": "In my opinion, unhappy citizens should:", 
+					"answers": [
+						"Visit a Bright Vision Re-education Center.", 
+						"Undergo morale adjustment surgery.",
+						"Take a Happy Pill."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "Sometimes other citizens get:", 
+					"answers": [
+						"Very angry.", 
+						"A little angry.",
+						"So angry it scares me."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "Happiness is:", 
+					"answers": [
+						"A warm laser.", 
+						"A state of mind.",
+						"Mandatory."
+						], 
+					"scoring": 0
+				},
+				{	
+					"question": "If the happiness officer is unhappy, he should:", 
+					"answers": [
+						"Take a Happy Pill.", 
+						"Tell The Computer.",
+						"Question his very existence."
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "The best Troubleshooter is a:", 
+					"answers": [
+						"Happy Troubleshooter.", 
+						"Loyal Troubleshooter.",
+						"Terminated Troubleshooter."
+						], 
+					"scoring": 1
+				},
+				{	
+					"question": "If I am promoted to ULTRAVIOLET clearance, I will:", 
+					"answers": [
+						"Be the same citizen I am now.", 
+						"Make everyone around me happy.",
+						"Be happier than I am now."
+						], 
+					"scoring": 1
+				},
+				{
+					"question"	:	"Do you think Commies are happy? If not, then why are they willing to endure termination rather than stop being Commies?"
+				}
+			]			
+		}	
+	]
+	
+}
